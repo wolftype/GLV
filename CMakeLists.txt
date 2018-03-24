@@ -67,7 +67,7 @@ set(EXECUTABLE_OUTPUT_PATH "${BUILD_ROOT_DIR}/build/bin")
 
 # Dependencies
 find_package(GLEW REQUIRED)
-find_package(GLUT REQUIRED)
+find_package(GLUT)
 find_package(OpenGL REQUIRED)
 
 set(GLV_LINK_LIBRARIES ${GLV_LINK_LIBRARIES}
